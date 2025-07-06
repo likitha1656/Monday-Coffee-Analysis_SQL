@@ -1,60 +1,53 @@
-# Monday Coffee Sales Analysis ☕
+# Monday Coffee SQL Analysis Project
 
-## Overview
-This project analyzes the sales data of Monday Coffee, an online coffee retailer since January 2023, to recommend the top three cities in India for new coffee shop locations based on consumer demand and sales performance.
+## Goal
+To analyze existing data and recommend the best city to open a new store for Monday Coffee.
 
-**Dataset:** 10,000 records (2023 sales data)
+## Questions Asked and Why
 
-## Objective 🎯
-- Identify cities with the highest market potential for opening new coffee shops.
-- Analyze sales performance, customer behavior, and market trends.
+1. **Which cities made the most money (total sales)?**  
+   - To find where the highest revenue is coming from.
 
-## Key Questions 🔍
-1. **Coffee Consumers Count**  
-   Estimate the number of coffee consumers in each city (25% of the population).
+2. **Which cities have the most active customers?**  
+   - To know where the most people are buying from us.
 
-2. **Total Revenue from Coffee Sales**  
-   Calculate total revenue generated in the last quarter of 2023.
+3. **Which cities have the highest customer ratings?**  
+   - To understand where customers are most satisfied.
 
-3. **Sales Count for Each Product**  
-   Determine units sold for each coffee product.
+4. **Which cities offer low rent but high revenue?**  
+   - To identify cities with the best profit potential.
 
-4. **Average Sales Amount per City**  
-   Find average sales per customer in each city.
+5. **Which cities have the highest revenue per customer?**  
+   - To see where customers spend the most individually.
 
-5. **City Population and Coffee Consumers**  
-   List cities with population and estimated coffee consumers.
+6. **Which cities have the most total orders?**  
+   - To find the busiest markets with high purchase frequency.
 
-6. **Top Selling Products by City**  
-   Identify the top 3 selling products per city.
+7. **What is the average product price sold?**  
+   - To understand what price range customers are comfortable with.
 
-7. **Customer Segmentation by City**  
-   Count unique customers per city.
 
-8. **Average Sale vs Rent**  
-   Compare average sale per customer with average rent per customer in each city.
+## Final Recommendation
 
-9. **Monthly Sales Growth**  
-   Calculate monthly sales growth rate.
+### Bangalore — YES  
+- High customer satisfaction  
+- Low estimated rent  
+- Strong total revenue and repeat orders
 
-10. **Market Potential Analysis**  
-    Identify the top 3 cities based on total sales, rent, customers, and coffee consumers.
+### Chennai — YES  
+- Best customer ratings overall  
+- High revenue per customer  
+- Consistent performance in all metrics
 
-## Findings & Recommendations 📊
-### Top 3 Cities for New Store Openings:
-1. **Pune**
-   - ✅ Lowest average rent per customer
-   - 💰 Highest total revenue
-   - 📈 High average sales per customer
+### Pune — YES  
+- Highest total revenue  
+- High number of active customers  
+- Good spending per customer
 
-2. **Delhi**
-   - ☕ Highest estimated coffee consumers (7.7 million)
-   - 👥 Highest total customers (68)
-   - 💸 Average rent per customer: ₹330
+---
 
-3. **Jaipur**
-   - 👥 Highest number of customers (69)
-   - 🏠 Very low average rent per customer (₹156)
-   - 📈 Strong average sales per customer (₹11.6k)
+## Summary
+Bangalore, Chennai, and Pune are the best cities for opening new branches based on sales, customer behavior, satisfaction, and cost factors.
+
 
 
